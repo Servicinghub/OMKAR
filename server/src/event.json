@@ -1,0 +1,12 @@
+[
+    {
+        "name":"Send verification Email",
+        "actions":[{
+        "type":"email",
+        "templateFile":"src/email-templates/basic.html",
+        "to":"{{to}}",
+        "cc":[],
+        "bcc":[],
+        "subject":"{{subject}}"
+    }]
+}]
